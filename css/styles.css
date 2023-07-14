@@ -79,14 +79,13 @@ body {
 .address-contacts:hover {
   color: #404bbf;
 }
-.address-contacts:active {
+.address-contacts:focus {
   color: #404bbf;
 }
 
 .order-service-section {
   background-color: var(--dark);
 }
-/*Header*/
 
 /*Footer*/
 .footer-section {
@@ -116,7 +115,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/*Footer*/
 
 /*Studio*/
 .order-service-title {
@@ -215,8 +213,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-/*Studio*/
 
 /*Portfolio*/
 

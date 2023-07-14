@@ -14,12 +14,17 @@
 
 body {
   color: #434455;
+  background-color: var(--white-background);
   font-family: "Roboto", sans-serif;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .header-logo {
-  color: var(--dark);
-  font-family: Raleway;
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -27,16 +32,18 @@ body {
   text-transform: uppercase;
 }
 
-.header-logo-web {
-  color: var(--primary-brand);
+.header-logo-studio {
+  font-family: "Raleway", sans-serif;
+  color: var(--dark);
 }
 
-.header-list {
+.list {
   color: var(--dark);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  list-style: none;
 }
 
 .header-link:active {
@@ -47,18 +54,16 @@ body {
   letter-spacing: 0.02em;
 }
 
-.address-mail {
-  color: var(--pressed-state);
+.address-main {
+  color: var(--text);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
-.address-main {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.order-service-section {
+  background-color: var(--dark);
 }
 
 .order-service-title {
@@ -67,18 +72,26 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .order-service-button {
-  border-radius: 4px;
+  color: var(--white-background);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background: var(--primary-brand);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .order-service-button:hover {
-  border-radius: 4px;
   background: var(--pressed-state);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.order-service-button:focus {
+  background: var(--pressed-state);
 }
 
 .text-button {
@@ -108,22 +121,31 @@ body {
   color: var(--dark);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .services-image {
   color: var(--accent);
 }
 
+.team-section {
+  background-color: #f4f4fd;
+}
 .team-title {
   color: var(--dark);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -140,9 +162,13 @@ body {
   letter-spacing: 0.02em;
 }
 
+.footer-section {
+  background-color: var(--dark);
+}
+
 .footer-logo {
-  color: var(--dark);
-  font-family: Raleway;
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -150,8 +176,9 @@ body {
   text-transform: uppercase;
 }
 
-.footer-logo-web {
-  color: var(--primary-brand);
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  color: var(--light);
 }
 
 .footer-text {
@@ -164,60 +191,40 @@ body {
 /*portfolio*/
 
 .filter-button-all {
-  border-radius: 4px;
   border: 1px solid var(--accent);
   background: var(--light);
 }
 .filter-button-website {
-  border-radius: 4px;
   border: 1px solid var(--accent);
   background: var(--light);
 }
 .filter-button-app {
-  border-radius: 4px;
   border: 1px solid var(--accent);
   background: var(--light);
 }
 .filter-button-design {
-  border-radius: 4px;
   border: 1px solid var(--accent);
   background: var(--light);
 }
 .filter-button-marketing {
-  border-radius: 4px;
   border: 1px solid var(--accent);
   background: var(--light);
 }
 
 .filter-button-all:hover {
-  border-radius: 4px;
   background: var(--pressed-state);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .filter-button-website:hover {
-  border-radius: 4px;
   background: var(--pressed-state);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .filter-button-app:hover {
-  border-radius: 4px;
   background: var(--pressed-state);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .filter-button-design:hover {
-  border-radius: 4px;
   background: var(--pressed-state);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .filter-button-marketing:hover {
-  border-radius: 4px;
   background: var(--pressed-state);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .filter-button-text {

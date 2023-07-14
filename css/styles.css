@@ -10,40 +10,10 @@
   --white-background: #ffffff;
 }
 
-/*studio*/
-
 body {
   color: #434455;
   background-color: var(--white-background);
   font-family: "Roboto", sans-serif;
-}
-
-.link {
-  color: var(--primary-brand);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.header-logo {
-  color: var(--primary-brand);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.header-logo-studio {
-  font-family: "Raleway", sans-serif;
-  color: var(--dark);
-  text-decoration: none;
 }
 
 .list {
@@ -53,6 +23,26 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/*Header*/
+.header-logo {
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-studio {
+  font-family: "Raleway", sans-serif;
+  color: var(--dark);
   text-decoration: none;
 }
 
@@ -75,43 +65,60 @@ body {
 .header-link:active {
   color: var(--pressed-state);
 }
+.address-main {
+  font-style: normal;
+}
 
-.address-mail {
+.address-contacts {
   color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
-  text-decoration: none;
-}
-.address-tel {
-  color: var(--text);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-style: normal;
-  text-decoration: none;
 }
 
-.address-mail:hover {
+.address-contacts:hover {
   color: #404bbf;
 }
-.address-mail:active {
-  color: #404bbf;
-}
-
-.address-tel:active {
-  color: #404bbf;
-}
-
-.address-tel:active {
+.address-contacts:active {
   color: #404bbf;
 }
 
 .order-service-section {
   background-color: var(--dark);
 }
+/*Header*/
 
+/*Footer*/
+.footer-section {
+  background-color: var(--dark);
+}
+
+.footer-logo {
+  color: var(--primary-brand);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  color: var(--light);
+  text-decoration: none;
+}
+
+.footer-text {
+  color: var(--light);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*Footer*/
+
+/*Studio*/
 .order-service-title {
   color: var(--white-background);
   font-size: 56px;
@@ -209,62 +216,29 @@ body {
   letter-spacing: 0.02em;
 }
 
-.footer-section {
-  background-color: var(--dark);
-}
+/*Studio*/
 
-.footer-logo {
-  color: var(--primary-brand);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.footer-logo-studio {
-  font-family: "Raleway", sans-serif;
-  color: var(--light);
-  text-decoration: none;
-}
-
-.footer-text {
-  color: var(--light);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/*portfolio*/
-.filter-button-item {
-  color: var(--primary-brand);
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.filter-button-item:hover {
-  color: #ffffff;
-}
-.filter-button-item:focus {
-  color: #ffffff;
-}
-
-.filter-button-item:active {
-  color: #ffffff;
-}
+/*Portfolio*/
 
 .filter-button {
+  color: var(--primary-brand);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: 1px solid var(--accent);
-  background: var(--light);
+  background-color: var(--light);
+  cursor: pointer;
 }
 
 .filter-button:hover {
-  background: var(--pressed-state);
+  color: var(--white-background);
+  background-color: var(--pressed-state);
+}
+.filter-button:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
 }
 
 .filter-button-text {
@@ -291,6 +265,7 @@ body {
 }
 
 .portfolio-picture-text {
+  color: var(--text);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

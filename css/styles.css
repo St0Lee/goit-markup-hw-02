@@ -30,11 +30,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .header-logo-studio {
   font-family: "Raleway", sans-serif;
   color: var(--dark);
+  text-decoration: none;
 }
 
 .list {
@@ -44,6 +46,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style: none;
+  text-decoration: none;
 }
 
 .header-link:active {
@@ -174,11 +177,13 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
   color: var(--light);
+  text-decoration: none;
 }
 
 .footer-text {
@@ -186,6 +191,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  t
 }
 
 /*portfolio*/

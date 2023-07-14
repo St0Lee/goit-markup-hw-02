@@ -253,7 +253,7 @@ body {
 
 .portfolio-picture-title {
   color: var(--dark);
-  font-family: "Roboto", sa;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;

@@ -10,6 +10,8 @@
   --white-background: #ffffff;
 }
 
+/*studio*/
+
 body {
   color: #434455;
   font-family: "Roboto", sans-serif;
@@ -228,4 +230,20 @@ body {
 
 .filter-button-text:hover {
   color: var(--white-background);
+}
+
+/*portfolio-images*/
+
+.portfolio-picture-title {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-picture-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }

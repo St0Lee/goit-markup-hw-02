@@ -72,6 +72,10 @@ body {
   color: var(--pressed-state);
 }
 
+.header-link:active {
+  color: var(--pressed-state);
+}
+
 .address-mail {
   color: var(--text);
   font-size: 16px;
@@ -234,41 +238,32 @@ body {
 }
 
 /*portfolio*/
-
-.filter-button-all {
-  border: 1px solid var(--accent);
-  background: var(--light);
-}
-.filter-button-website {
-  border: 1px solid var(--accent);
-  background: var(--light);
-}
-.filter-button-app {
-  border: 1px solid var(--accent);
-  background: var(--light);
-}
-.filter-button-design {
-  border: 1px solid var(--accent);
-  background: var(--light);
-}
-.filter-button-marketing {
-  border: 1px solid var(--accent);
-  background: var(--light);
+.filter-button-item {
+  color: var(--primary-brand);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.filter-button-all:hover {
-  background: var(--pressed-state);
+.filter-button-item:hover {
+  color: #ffffff;
 }
-.filter-button-website:hover {
-  background: var(--pressed-state);
+.filter-button-item:focus {
+  color: #ffffff;
 }
-.filter-button-app:hover {
-  background: var(--pressed-state);
+
+.filter-button-item:active {
+  color: #ffffff;
 }
-.filter-button-design:hover {
-  background: var(--pressed-state);
+
+.filter-button {
+  border: 1px solid var(--accent);
+  background: var(--light);
 }
-.filter-button-marketing:hover {
+
+.filter-button:hover {
   background: var(--pressed-state);
 }
 
@@ -288,6 +283,7 @@ body {
 
 .portfolio-picture-title {
   color: var(--dark);
+  font-family: "Roboto", sa;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
